@@ -1,0 +1,10 @@
+.git/
+.vscode/
+output/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.zip
+*.egg-info/
+venv/

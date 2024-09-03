@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.14
+  - pip=22.3.1  # or any specific version you'd like to pin to
+  - pip:
+      - rpaframework==28.6.2

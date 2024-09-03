@@ -1,0 +1,11 @@
+tasks:
+  Default:
+    robotTaskName: "Run Sales Data Process"
+    actions:
+      - run:
+          command: python tasks.py
+    artifactsDir: output
+condaConfigFile: conda.yaml
+robotFrameworkPath: lib/python3.8/site-packages
+environment:
+  PYTHONPATH: .
